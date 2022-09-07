@@ -1,0 +1,149 @@
+@import url('/styles/normalize.css');
+
+body {
+    color: white;
+    font: normal normal 400 13px Arial, sans-serif;
+}
+
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+main {
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px 20px;
+
+    background-color: blue;
+}
+
+
+.title {
+    margin-bottom: 10px;
+}
+
+.text-container {
+    margin-bottom: 10px;
+}
+
+.text-container__block {
+    float: left;
+
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    border: 5px solid white;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.link-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    color: red;
+    text-decoration: underline;
+}
+
+
+.list-container__title {
+    word-spacing: 7px;
+}
+
+.list > li {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.list > li:nth-child(2) {
+    color: aqua;
+    letter-spacing: 3px;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.styles-container > * {
+    margin-bottom: 10px;
+}
+
+.styles-container:nth-child(4) {
+    margin-bottom: 20px;
+}
+
+.styles-container > div:last-child {
+    margin-bottom: 0;
+}
+
+.bottom-right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.table {
+    height: 90px;
+    table-layout: fixed;
+    border: 1px solid white;
+}
+
+
+.table td {
+    width: 35px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.like-img {
+    width: 20px;
+    object-fit: cover;
+}
+
+
+footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/*styling classes*/
+
+.red {
+    color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.underline {
+    text-decoration: underline;;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
